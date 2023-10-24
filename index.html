@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .project {
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            width: 80%;
+            text-align: center;
+        }
+        .project h2 {
+            color: #333;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Project Showcase</h1>
+    </header>    
+    <div class="project">
+      <h2>Raspberry Pi Mouse & Nun-chuck Aim Trainer </h2>
+      <video width="640" height="360" controls> 
+        <source src="Videos\CS107E AimLabs.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>Bare-mental implementation of “AimLabs”-inspired aim trainer with C in Raspberry Pi A+ as final Project for CS107E. Built the operating system, libraries, and game from scratch. I integrated PS/2 mouse movement and programmed game play and graphics while my partners integrated I2C nunchuck movement, starting screen, and leaderboard.   </p>
+      <img width="520" height="640" src="Images\PaintCS107E.jpg" alt="Description of the image">
+      <p>Painting application built on Raspberry Pi using PS/2 mouse. Users can switch between an array of colors, draw, and erase. </p>
+    </div>
+    <div class="project">
+        <h2>Unity Augmented Reality Projects</h2>
+        <video width="270" height="600" controls> 
+          <source src="Videos\Unity Augmented Reality Reel.mp4" type="video/mp4">
+          Made in Unity for CS11SI. 
+        </video>
+        <p>Made in Unity for CS11SI.</p>
+    </div>
+    <div class="project">
+      <h2>Unity VR Aim Trainer & GameMakerStudios Platformer</h2>
+      <video width="640" height="360" controls> 
+        <source src="Videos\Game Dev Reel.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>Virtual Reality aim trainer made in Unity for practice and A platformer game with 2 levels made in GameMakerStudios.   </p>
+   </div>
+    <div class="project">
+        <h2>Android Studios Applications</h2>        
+        <video width="300" height="600" controls> 
+          <source src = "Videos\Android Studios Reel.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>Various applications made in Android Studios for CS194A.</p>
+    </div>
+    <div class="project">
+      <h2>Unity Basic Room/Floor Plan Generator </h2>
+      <video width="640" height="360" controls> 
+        <source src="Videos\CS248A DEMO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>Final Project for CS248A. Randomly populates a room with furniture and objects and floor plans.  </p>
+    </div>
+    <div class="project">
+      <h2> Personal Gallery Website </h2>
+      <img width="640" height="360" src="Images\CS193X.png" alt="Description of the image">
+      <p>Designed a website with a horizontally scrolling gallery. Suitable as an art portolio, photo album, bucket list, and more. </p>
+    </div>
+</body>
+</html>
