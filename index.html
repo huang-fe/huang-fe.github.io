@@ -31,6 +31,10 @@
             letter-spacing: 5px;
             font-size: large;
         }
+        .container {
+          display: grid;
+          column-gap: 50px;
+        }
         .project {
             margin: auto;
             margin-bottom: 40px;
@@ -62,8 +66,9 @@
 </head>
 <body>
     <header>
-        <h1>Felicity Huang - Stanford 2025 - Computer Science (Systems/AI) - Project Showcase</h1>
+        <h1>Felicity Huang - Stanford BS 2025 MS 2026 - Computer Science (Systems/AI) - Project Showcase</h1>
     </header> 
+    <div class = "container">
     <div class="project">
       <h2>CS231N Final Project Poster: Head Movement and Facial Expression Detection: An Alternate Input System
         for Gamers with Muscular Disabilities</h2>
@@ -76,16 +81,7 @@
         width="100%"
       ></embed>
     </div> 
-    <div class="project">
-      <h2>CS153 Applied Security at Scale Final Paper: Phishing and LLMs</h2>
-      <iframe
-        src="Documents\CS153_final_project.pdf"
-        frameBorder="0"
-        scrolling="auto"
-        height="400px"
-        width="100%"
-      ></iframe>  
-    </div>   
+    
     <div class="project">
       <h2>Raspberry Pi Mouse & Nun-chuck Aim Trainer </h2>
       <video width="640" height="360" controls> 
@@ -96,6 +92,7 @@
       <img width="520" height="640" src="Images\PaintCS107E.jpg" alt="Description of the image">
       <p>Basic paint built on Raspberry Pi using PS/2 mouse. Users can switch between an array of colors, draw, and erase. </p>
     </div>
+
     <div class="project">
       <h2>Microsoft Hololens 2 & Electromagnetic Tracking System for Brachytherapy @ Stanford IMMERS Lab</h2>
       <video width="640" height="360" controls> 
@@ -106,13 +103,27 @@
         Note: The virtual and physical objects look poorly aligned in the recording because the HoloLens camera 
         is not where your eyes are.</p>
     </div>
+
     <div class="project">
-      <h2>Unity Augmented Reality Projects</h2>
-      <video width="270" height="600" controls> 
-        <source src="Videos\Unity Augmented Reality Reel.mp4" type="video/mp4">
+      <h2>Desktop Bunny Productivity Tool - Personal Project</h2>
+      <video width="640" height="360" controls> 
+        <source src="Videos\DesktopRabbitTkinterDemo.mp4" type="video/mp4">
       </video>
-      <p>Dynamic lighting detection/reaction, plane detection, and image tracking. Made in Unity for CS11SI.</p>
+      <p>Screen overlay tool inspired by Desktop Goose with pomodoro timer, wellness reminders for hydration/mobility, and Gemini 1.5 chat interface to enhance productivity and encourage healthy habits. Additional features, code optimizations, enhanced UI coming soon.</p>
     </div>
+    
+    <div class="project">
+      <h2> Personal Gallery Website </h2>
+      <img width="960" height="540" src="Images\CS193X.png" alt="Description of the image">
+      <p>Full-stack website development written with Node JS, Express JS, and MongoDB. Designed a website with a horizontally scrolling gallery as final project for CS193X that can be used as an art portolio, photo album, moodboard, idea list, and more. </p>
+    </div>
+
+    <!-- <div class="project">
+      <h2> Zaun - Rendered in Blender </h2>
+      <img width="960" height="540" src="Images\CS193X.png" alt="Description of the image">
+      <p> Undercity from Netflix Animation series Arcane. 3D modeled and rendered in Blender Cycles. </p>
+    </div> -->
+
     <div class="project">
       <h2>VR x AI Multiplayer Painting Game</h2>
       <iframe width="640" height="360" src="https://youtu.be/D622-WeCsV0"> 
@@ -122,6 +133,7 @@
         and judged by CLIP AI model on the best resemblance to the original image.</p>
       <a href="https://devpost.com/software/the-pen-is-mighter-than-the-sword"> Devpost: https://devpost.com/software/the-pen-is-mighter-than-the-sword</a>
     </div>
+
     <div class="project">
       <h2>VR x Arduino Bloodstream Education Game</h2>
       <iframe width="640" height="360" src="https://youtu.be/zH3GdwHmTME"> 
@@ -129,19 +141,35 @@
       <p>An educational game that integrates VR and Arduino heart rate sensor for a personalized learning experience of the bloodstream and vascular repair process. Built for TreeHacks 2023.</p>
       <a href="https://devpost.com/software/blood-vessel-experience"> Devpost: https://devpost.com/software/blood-vessel-experience</a>
     </div>
+    
+    <div class="project">
+      <h2>CS153 Applied Security at Scale Final Paper: Phishing and LLMs</h2>
+      <iframe
+        src="Documents\CS153_final_project.pdf"
+        frameBorder="0"
+        scrolling="auto"
+        height="400px"
+        width="100%"
+      ></iframe>  
+    </div>   
+
     <div class="project">
       <h2>Unity VR Aim Trainer & GameMakerStudios Platformer</h2>
       <video width="640" height="360" controls> 
         <source src="Videos\Game Dev Reel.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <p>Virtual Reality aim trainer made in Unity for practice and A platformer game with 2 levels made in GameMakerStudios.   </p>
+      <p>Virtual Reality aim trainer made in Unity for practice and 2D platformer game with 2 levels made in GameMakerStudios.   </p>
    </div>
+
     <div class="project">
-      <h2> Personal Gallery Website </h2>
-      <img width="960" height="540" src="Images\CS193X.png" alt="Description of the image">
-      <p>Full-stack website development written with Node JS, Express JS, and MongoDB. Designed a website with a horizontally scrolling gallery as final project for CS193X that can be used as an art portolio, photo album, moodboard, idea list, and more. </p>
+      <h2>Unity Augmented Reality Projects</h2>
+      <video width="270" height="600" controls> 
+        <source src="Videos\Unity Augmented Reality Reel.mp4" type="video/mp4">
+      </video>
+      <p>Dynamic lighting detection/reaction, plane detection, and image tracking. Made in Unity for CS11SI.</p>
     </div>
+
     <div class="project">
         <h2>Android Studios Applications</h2>        
         <video width="300" height="600" controls> 
@@ -150,6 +178,7 @@
         </video>
         <p>Various applications made in Android Studios for CS194A.</p>
     </div>
+
     <div class="project">
       <h2>Unity Basic Room/Floor Plan Generator </h2>
       <video width="640" height="360" controls> 
@@ -158,5 +187,6 @@
       </video>
       <p>Final Project for CS248A. Randomly populates a room with furniture and objects and floor plans.  </p>
     </div>
+  </div>
 </body>
 </html>
